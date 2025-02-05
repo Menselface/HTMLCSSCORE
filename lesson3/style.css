@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Marck+Script&family=Reddit+Mono:wght@200..900&display=swap');
+
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background: linear-gradient(rgba(204, 186, 186, 0.596), rgba(51, 42, 42, 0.651)), 
+                url('https://images.unsplash.com/photo-1586234236373-86663812a570?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center/cover no-repeat;
+}
+
+.active{
+    color: rgb(0, 0, 0);
+    background-color: rgba(59, 47, 47, 0.281);
+    border-radius: 20%;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+
+header:hover{
+    background-color: rgba(252, 252, 252, 0.144);
+}
+
+header .logo{
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+
+nav a, nav li{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-size: 1.1em;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    letter-spacing: 0.1vw;
+    
+}
+
+nav a:hover{
+    color: rgba(77, 73, 73, 0.911);
+    transition: 0.4s;
+    
+}
+
+main{
+    height: 70vh;
+    padding-top: 20vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+main p{
+    font-size: 30px;
+    font-family: "Reddit Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+main h1{
+    font-size: 145px;
+    letter-spacing: 0.1vw;
+    font-family: "Marck Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(236, 236, 236, 0.178);
+    border-radius: 12%;
+}
+
+main button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: rgb(207, 198, 198);
+    border: none;
+    margin-top: 30px;
+    font-size: 19px;
+    font-family: "Marck Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    letter-spacing: 2px;
+}
